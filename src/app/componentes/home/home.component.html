@@ -1,0 +1,29 @@
+<app-cabecalho></app-cabecalho>
+<section class="banner-main">
+  <div class="banner">
+    <img src="../../../assets/banner-main.png" alt="" />
+  </div>
+  <div class="banner-right-text">
+    <div class="align-texts">
+      <h2 id="promocao">PROMOÇÃO!</h2>
+      <p>alugue juntos e tenha um desconto de</p>
+      <h2 id="desconto">15%</h2>
+    </div>
+  </div>
+</section>
+<section class="carousel_last_visit" >
+  <div class="text-last-visit">
+    <h2>Baseado na sua última visita</h2>
+    <p>ver histórico</p>
+  </div>
+  <div class="carousel-items">
+    <div *ngFor="let i of listItems" class="box-item">
+      <img src="../../../assets/img-miranha.png" alt="">
+      <h3>{{i.name_item}}</h3>
+      <p>{{i.price_item}}</p>
+    </div>
+    <img src="../../../assets/arrow_carousel.svg" alt="">
+
+  </div>
+
+</section>

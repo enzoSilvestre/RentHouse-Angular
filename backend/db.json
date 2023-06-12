@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Enzo",
+      "email": "e.e@gmail.com",
+      "senha": "98765",
+      "cpf": "78643563",
+      "data_nascimento": " 10/06/2020"
+    },
+    {
+      "id": 2,
+      "nome": "Lucas",
+      "email": "l.l@gmail.com",
+      "senha": "12345",
+      "cpf": "999999",
+      "data_nascimento": " 10/06/2020"
+    },
+    {
+      "id": 3,
+      "nome": "Boncio",
+      "email": "b.b@gmail.com",
+      "senha": "b@gmail.com",
+      "cpf": "555555",
+      "data_nascimento": " 10/06/2020"
+    },
+    {
+      "id": 4,
+      "nome": "Denis",
+      "email": "d.d@gmail.com",
+      "senha": "d12345",
+      "cpf": "44444",
+      "data_nascimento": " 10/06/2020"
+    },
+    {
+      "name_register": "enzo",
+      "email_register": "enzola@gmail.com",
+      "senha_register": "1234",
+      "confirmar_senha": "1234",
+      "cpf": 999,
+      "data_nascimento": "10092003",
+      "id": 5
+    },
+    {
+      "name_register": "enzos",
+      "email_register": "enzola@gmail.com",
+      "senha_register": "1234",
+      "confirmar_senha": "1234",
+      "cpf": 999,
+      "data_nascimento": "10092003",
+      "id": 6
+    },
+    {
+      "name_register": "",
+      "email_register": "",
+      "senha_register": "",
+      "confirmar_senha": "",
+      "cpf": null,
+      "data_nascimento": "",
+      "id": 7
+    },
+    {
+      "name_register": "chac",
+      "email": "c@c.com",
+      "senha": "1234",
+      "confirmar_senha": "1234",
+      "cpf": 987,
+      "data_nascimento": "47343",
+      "id": 8
+    }
+  ],
+  "items":[
+    {
+      "name_item": "Filme do Miranha",
+      "price_item": "R$ 5,50"
+    },
+    {
+      "name_item": "Filme do Batman",
+      "price_item": "R$ 99,90"
+    },
+    {
+      "name_item": "Rei Pelé",
+      "price_item": "R$ 100,50"
+    }
+  ]
+}

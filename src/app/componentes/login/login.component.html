@@ -1,0 +1,76 @@
+<div class="body-login">
+  <div class="container">
+    <div class="box-login">
+      <div class="box-left-image">
+        <img id="img-login" src="../../../assets/img-left.png" />
+      </div>
+      <div class="box-right">
+        <div class="box-title-login">
+          <h2>BEM VINDO DE VOLTA</h2>
+          <p>Faça seu login</p>
+        </div>
+
+        <div class="box-input">
+          <div class="box-input-label">
+            <label for="">Login</label>
+            <input id="email" placeholder="email" [(ngModel)]="dadosLogin.email" type="text" />
+          </div>
+          <div class="box-input-label">
+            <label for="">Senha</label>
+            <input id="senha" placeholder="senha" [(ngModel)]="dadosLogin.senha"  type="password" />
+          </div>
+          <div class="text-password">
+            <p>Esqueceu sua senha?</p>
+          </div>
+        </div>
+
+        <div class="box-button">
+          <button (click)="authUser()" >LOGIN</button>
+        </div>
+
+        <div class="box-singIn">
+          <p>Não tem conta? <b (click)="handleModal()" > cadastra-se aqui </b></p>
+        </div>
+        <div class="overlay" [ngClass]="modalVerification()" >
+          <div class="container-modal">
+            <div class="title-modal">
+              <h2>Cadastre sua empresa</h2>
+            </div>
+              <div class="box-input-group">
+                <div class="input-group">
+                    <label  for="">Nome</label>
+                    <input  [(ngModel)]="dadosCadastro.name_register" id="name_register" placeholder="Escreva aqui" type="text"/>
+                </div>
+                <div class="input-group">
+                    <label for="">Email</label>
+                    <input  [(ngModel)]="dadosCadastro.email" id="email_register"  placeholder="Escreva aqui" type="text"/>
+                </div>
+                <div class="input-group">
+                    <label for="">Senha</label>
+                    <input  [(ngModel)]="dadosCadastro.senha" id="senha_register" placeholder="Escreva aqui" type="password"/>
+                </div>
+                <div class="input-group">
+                    <label for="">confirmar senha</label>
+                    <input  [(ngModel)]="dadosCadastro.confirmar_senha" id="confirmar_senha" placeholder="Escreva aqui" type="password"/>
+                </div>
+                <div class="input-group">
+                    <label for="">cpf</label>
+                    <input  [(ngModel)]="dadosCadastro.cpf" id="cpf" placeholder="Escreva aqui" type="number"/>
+                </div>
+                <div class="input-group">
+                    <label for="">data nascimento</label>
+                    <input  [(ngModel)]="dadosCadastro.data_nascimento" id="data_nascimento" placeholder="Escreva aqui" type="text"/>
+                </div>
+
+              </div>
+              <div class="buttons-group">
+                <button (click)="closeModal()" >Cancelar</button>
+                <button id="button-cadastro" (click)="createNewUser()"  >cadastrar</button>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
